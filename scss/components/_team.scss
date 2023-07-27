@@ -1,0 +1,35 @@
+.team {
+    margin-bottom: 4rem;
+    
+    &__heading {
+        margin-bottom: 3rem;
+
+        & h1 {
+            text-align: center;
+            color: $darkgreen;
+        }
+    }
+
+    &__devs {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        gap: 4rem;
+
+        &__dev {
+
+            & img {
+                width: 7rem;
+                border-radius: 50%;
+            }
+
+            &__info > span {
+                color: rgba(240, 255, 255, 0.459);
+            }
+            
+        }
+    }
+    
+    
+}

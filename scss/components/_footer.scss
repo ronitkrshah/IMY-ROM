@@ -1,0 +1,24 @@
+.footer {
+    background-color: #111111;
+    color: rgba(255, 255, 255, 0.452);
+    padding: .3rem 2rem;
+
+    & a {
+        text-decoration: underline;
+        color: rgba(255, 255, 255, 0.452);;
+        font-size: .8rem;
+    }
+
+    & h4 {
+        text-align: center;
+        font-size: 1rem;
+        font-weight: normal;
+        font-style: italic;
+        margin-bottom: .6rem;
+
+        & > a {
+            font-size: inherit;
+        }
+    }
+
+}
