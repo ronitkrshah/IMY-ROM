@@ -14,10 +14,14 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        text-align: center;
-        gap: 4rem;
+        gap: 6rem;
+        align-items: center;
 
         &__dev {
+            text-align: center;
+            display: inline-block;
+            height: 10rem;
+            width: 10rem;
 
             & img {
                 width: 7rem;
@@ -29,6 +33,7 @@
             }
 
             &__info {
+                white-space: nowrap;
 
                 & h1 {
                     @include big-phone {
@@ -43,7 +48,12 @@
                         font-size: .9rem;
                     }
                 }
-            } 
+            }
+
+            @include phone {
+                height: 9rem;
+                width: 9rem;
+            }
             
         }
 
@@ -51,6 +61,10 @@
             gap: 1rem;
             padding: 0 1rem;
             justify-content: space-evenly;
+        }
+
+        @include phone {
+            gap: 1rem;
         }
     }
     

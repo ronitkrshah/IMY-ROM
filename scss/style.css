@@ -259,8 +259,14 @@ hr {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  gap: 6rem;
+  align-items: center;
+}
+.team__devs__dev {
   text-align: center;
-  gap: 4rem;
+  display: inline-block;
+  height: 10rem;
+  width: 10rem;
 }
 .team__devs__dev img {
   width: 7rem;
@@ -270,6 +276,9 @@ hr {
   .team__devs__dev img {
     width: 4rem;
   }
+}
+.team__devs__dev__info {
+  white-space: nowrap;
 }
 @media (max-width: 608px) {
   .team__devs__dev__info h1 {
@@ -284,11 +293,22 @@ hr {
     font-size: 0.9rem;
   }
 }
+@media (max-width: 492px) {
+  .team__devs__dev {
+    height: 9rem;
+    width: 9rem;
+  }
+}
 @media (max-width: 608px) {
   .team__devs {
     gap: 1rem;
     padding: 0 1rem;
     justify-content: space-evenly;
+  }
+}
+@media (max-width: 492px) {
+  .team__devs {
+    gap: 1rem;
   }
 }
 
