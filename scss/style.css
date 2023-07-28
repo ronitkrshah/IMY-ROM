@@ -186,16 +186,12 @@ body {
   text-align: center;
 }
 .supported_devices__list .devices .devices__img {
-  width: 6rem;
-  height: 6rem;
-  border-radius: 50%;
+  width: 96px;
+  height: 96px;
 }
 .supported_devices__list .devices .devices__img img {
-  -o-object-fit: cover;
-     object-fit: cover;
   width: inherit;
   height: inherit;
-  border-radius: inherit;
 }
 @media (max-width: 1100px) {
   .supported_devices__list .devices {
