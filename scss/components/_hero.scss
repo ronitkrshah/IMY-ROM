@@ -9,10 +9,40 @@
     &__title {
         text-align: center;
         font-size: 4rem;
+
+        @include ipad {
+            font-size: 3rem;
+        }
+
+        @include phone {
+            font-size: 1.7rem;
+            font-weight: bold;
+        }
     }
 
     &__desc {
         margin-top: 1rem;
         font-size: 2rem;
+
+        @include tablet {
+            text-align: center;
+            padding: 0 1rem;
+        }
+
+        @include ipad {
+            font-size: 1.3rem;
+        }
+
+        @include phone {
+            font-size: 1rem;
+        }
+    }
+
+    @include ipad {
+        height: 20rem;
+    }
+
+    @include phone {
+        height: 17rem;
     }
 }

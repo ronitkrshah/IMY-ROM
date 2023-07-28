@@ -22,12 +22,35 @@
             & img {
                 width: 7rem;
                 border-radius: 50%;
+
+                @include phone {
+                    width: 4rem;
+                }
             }
 
-            &__info > span {
-                color: rgba(240, 255, 255, 0.459);
-            }
+            &__info {
+
+                & h1 {
+                    @include big-phone {
+                        font-size: 1.5rem;
+                    }
+                }
+
+                & span {
+                    color: rgba(240, 255, 255, 0.356);
+
+                    @include big-phone {
+                        font-size: .9rem;
+                    }
+                }
+            } 
             
+        }
+
+        @include big-phone {
+            gap: 1rem;
+            padding: 0 1rem;
+            justify-content: space-evenly;
         }
     }
     
