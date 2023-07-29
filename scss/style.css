@@ -28,8 +28,16 @@ body {
   margin-right: 0.4rem;
 }
 @media (max-width: 492px) {
+  .header img {
+    width: 2rem;
+  }
+}
+@media (max-width: 492px) {
   .header {
-    padding: 1rem;
+    padding: 0.5rem 1rem;
+  }
+  .header h1 {
+    font-size: 1.2rem;
   }
 }
 

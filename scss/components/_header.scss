@@ -8,9 +8,17 @@
         width: 3rem;
         object-fit: contain;
         margin-right: .4rem;
+
+        @include phone {
+            width: 2rem;
+        }
     }
 
     @include phone {
-        padding: 1rem;
+        padding: .5rem 1rem;
+
+        & h1 {
+            font-size: 1.2rem;
+        }
     }
 }
