@@ -17,7 +17,15 @@ body {
 
 .header {
   font-family: "Open Sans", sans-serif;
-  padding: 1rem 3rem;
+  padding: 0.4rem 2rem;
+  display: flex;
+  align-items: center;
+}
+.header img {
+  width: 3rem;
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin-right: 0.4rem;
 }
 @media (max-width: 492px) {
   .header {
@@ -26,7 +34,7 @@ body {
 }
 
 .hero {
-  background-image: linear-gradient(0deg, #4FBF3D, #1EDB75);
+  background-image: linear-gradient(45deg, #4FBF3D, #1EDB75);
   height: 30rem;
   display: flex;
   flex-direction: column;
@@ -180,7 +188,7 @@ body {
 .supported_devices__list .devices .devices__info a {
   text-decoration: none;
   color: #fff;
-  background-image: linear-gradient(0deg, #4FBF3D, #1EDB75);
+  background-image: linear-gradient(45deg, #4FBF3D, #1EDB75);
   padding: 0.4rem 1rem;
   border-radius: 1rem;
   text-align: center;

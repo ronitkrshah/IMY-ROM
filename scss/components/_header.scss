@@ -1,6 +1,14 @@
 .header {
     font-family: $sans;
-    padding: 1rem 3rem;
+    padding: .4rem 2rem;
+    display: flex;
+    align-items: center;
+
+    & img {
+        width: 3rem;
+        object-fit: contain;
+        margin-right: .4rem;
+    }
 
     @include phone {
         padding: 1rem;
