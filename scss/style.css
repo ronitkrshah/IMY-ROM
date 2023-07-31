@@ -177,7 +177,7 @@ body {
 .supported_devices__list .devices .devices__info span {
   color: #EEEEEE;
   font-size: 1.3rem;
-  margin-bottom: 0.7rem;
+  margin-bottom: 0.3rem;
 }
 @media (max-width: 492px) {
   .supported_devices__list .devices .devices__info span {
