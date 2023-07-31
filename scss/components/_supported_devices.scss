@@ -12,16 +12,6 @@
             position: relative;
             width: fit-content;
 
-            &::after{
-                content: '';
-                position: absolute;
-                height: .3rem;
-                width: 1rem;
-                background-color: $darkgreen;
-                top: 50%;
-                transform: translateX(.7rem);        
-            }
-
             @include tablet {
                 font-size: 1.7rem;
             }
