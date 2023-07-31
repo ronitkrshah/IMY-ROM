@@ -1,15 +1,25 @@
 .footer {
     background-color: #111111;
     color: rgba(255, 255, 255, 0.452);
-    padding: .3rem 2rem;
+    padding: .3rem 1rem;
 
-    & a {
-        text-decoration: underline;
-        color: rgba(255, 255, 255, 0.452);;
-        font-size: .8rem;
+    &__links {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 1rem;
+
+        & > h4 {
+            margin-bottom: .4rem;
+        }
+
+        & a {
+            text-decoration: underline;
+            color: rgba(255, 255, 255, 0.452);
+            font-size: .8rem;
+        }
     }
 
-    & h4 {
+    & > h4 {
         text-align: center;
         font-size: 1rem;
         font-weight: normal;
@@ -18,6 +28,7 @@
 
         & > a {
             font-size: inherit;
+            color: rgba(255, 255, 255, 0.452);
         }
     }
 

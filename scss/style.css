@@ -325,20 +325,29 @@ hr {
 .footer {
   background-color: #111111;
   color: rgba(255, 255, 255, 0.452);
-  padding: 0.3rem 2rem;
+  padding: 0.3rem 1rem;
 }
-.footer a {
+.footer__links {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+.footer__links > h4 {
+  margin-bottom: 0.4rem;
+}
+.footer__links a {
   text-decoration: underline;
   color: rgba(255, 255, 255, 0.452);
   font-size: 0.8rem;
 }
-.footer h4 {
+.footer > h4 {
   text-align: center;
   font-size: 1rem;
   font-weight: normal;
   font-style: italic;
   margin-bottom: 0.6rem;
 }
-.footer h4 > a {
+.footer > h4 > a {
   font-size: inherit;
+  color: rgba(255, 255, 255, 0.452);
 }/*# sourceMappingURL=style.css.map */
